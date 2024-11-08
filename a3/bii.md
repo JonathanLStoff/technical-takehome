@@ -27,4 +27,4 @@ CREATE TABLE requests (
 
 **Alternative**:
 - **Database**: An alternative approach could be to use a document-oriented database like MongoDB. Document databases are schema-less and can handle unstructured data well. However, trying to track relationships would require more work and potentially slower queries compared to a relational database.
-- **Data Schema**: Other alternatives could include complex triggers/functions, but these could introduce performance issues and make the system harder to maintain. Triggers also take out some ablity to integrate with other systems like Django's models. Using Django's models would be a great way to control and integrate the database with other systems, and frontend control.
+- **Data Schema**: Other alternatives could include complex triggers/functions, but these could introduce performance issues and make the system harder to maintain. Triggers also take out some ability to integrate with other systems like Django's models. Using Django's models would be a great way to control and integrate the database with other systems, and frontend control.
